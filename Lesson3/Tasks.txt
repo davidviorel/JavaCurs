@@ -1,0 +1,19 @@
+- Ce face comanda: git add, git init, git commit, git push?
+
+git add - adaugi fisierele temporar asa numit index
+git init - creaza directoriu inca neexistent sau reinitializeaza unul existent
+git commit - adauga modificarile in istoria proiectului
+git push - incarca modificarile intr-o ramura a unui proiect.
+
+- Cum poate fi copiat un fisier utilizand linia de comanda?
+
+C:\Users\User>copy C:\Users\User\Desktop\1\viorel.txt "C:\Users\User\Desktop\Homework 22.01.2019"
+        1 file(s) copied.
+
+- Cum pot fi sterse toate fisierele de tip mp3 dintr-un directoriu, utilizand linia de comanda?
+
+C:\Users\User>del "desktop\Homework 22.01.2019"\*.mp3
+
+C:\Users\User>
+
+
