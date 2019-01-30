@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Inmultire {
 
 	public static void main(String[] args) {
+			// Operatie de inmultire
 			Scanner input=new Scanner(System.in);
 			int firstNumber=0; 
 			int secondNumber=0; 
@@ -14,5 +15,9 @@ public class Inmultire {
 			secondNumber=input.nextInt();
 			sum=firstNumber * secondNumber;
 			System.out.println("Sum of the numbers is: " + sum);
+			System.out.println("--------------------------- " );
+			System.out.println("       Info:Calculator " );
+			System.out.println("     Author:David Viorel " );
+			System.out.println("Description:calculate Multiply " );
 	}
 }
