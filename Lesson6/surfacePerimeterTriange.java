@@ -7,15 +7,16 @@ public class surfacePerimeterTriange {
 	Scanner scanner = new Scanner(System.in);
 
 	System.out.println("Enter an operation: ");
-	System.out.println("S. Surface of the triangle: " );
-	System.out.println("P. Perimeter of the triangle: " );
-	char operation = scanner.next().charAt(0);
-			
+	System.out.println("ST. Surface of the triangle: " );
+	System.out.println("PT. Perimeter of the triangle: " );
+	System.out.println("SR. Surface of rectangle: ");
+		String operation = scanner.nextLine();
+	
 		
 	switch(operation) {
 	
-	case 'S':
-	case 's':
+	case "ST":
+	case "st":
  		System.out.println("Enter the base of triangle (a): ");
         	double num1 = scanner.nextDouble();
 		System.out.println("Enter the height of triangle (h): ");
@@ -25,8 +26,8 @@ public class surfacePerimeterTriange {
 		System.out.println("Surface of the trangle:" + output);
 		break;
 		
-	case 'P':
-	case 'p':
+	case "PT":
+	case "pt":
 		System.out.println("Enter a side of triangle (a): ");
 		double num4 = scanner.nextDouble();
 		System.out.println("Enter a side of triangle (b): ");

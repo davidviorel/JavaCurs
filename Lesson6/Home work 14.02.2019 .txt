@@ -1,0 +1,10 @@
+*Sarcina #1*:
+
+protected String name;
+public Stirng surname; 
+private int age;
+
+Pentru accesarea acestor atribute in alte in clasele din alte pachete este nevoie de modificat acesul la ele si anume;
+	protect String name; - schimbam din protect in public astfel va fi vazut din alte pachete, altfel accesul la el poate fi posibil doar din clasa, pachet sau subclasa in care se afla.
+	public String surnam; acest "access modifier" este accesibil din oricare pachet, grup, clas, subclas, din interior atit si in afara pachetului din care face pare.
+	privat int age; ca sa-l putem acesa dintr-un pachet exterior necesita a fi modificat access modifier-ul in public, in caz contrat este acesibil doar si doar din clasa de unde este creat.
