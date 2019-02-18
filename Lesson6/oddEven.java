@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class parImpar {
+public class oddEven {
 
 	public static void main(String[] args) {
 
@@ -10,13 +10,14 @@ public class parImpar {
 	System.out.println("Description:Calcul Par Impar " );
 	System.out.println("--------------------------- " );
 
-	Scanner sc=new Scanner (System.in);
-	System.out.println("introduce-ti un numar");
-	int numar = sc.nextInt();
+	Scanner input = new Scanner (System.in);
+	System.out.println("Enter a number");
+	int number = input.nextInt();
 		
-	if(numar % 2 == 0 );
-	System.out.println ("Este par");
+	if(number % 2 == 0 )
+	System.out.println ("Number is even" );
+	
 	else
-	System.out.println ("Este impar");
+	System.out.println ("Number is odd") ;
 	}
 }
